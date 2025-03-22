@@ -1,0 +1,60 @@
+:root {
+  --primary-color: #ff9933;
+  --secondary-color: #ffd700;
+  --background-color: #000000;
+  --text-color: #ffffff;
+  --primary-font: 'Poppins', sans-serif;
+  --secondary-font: 'Inter', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--secondary-font);
+  line-height: 1.6;
+  overflow-x: hidden;
+  background-image: url('/public/MaaAdyaKali_5.png');
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(255, 153, 51, 0.3);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(255, 153, 51, 0.2);
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: var(--primary-color);
+  color: #000000;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  margin-top: 1.5rem;
+}
+
+.cta-button:hover {
+  background-color: var(--secondary-color);
+}
+
+/* ...existing code for other global styles... */
