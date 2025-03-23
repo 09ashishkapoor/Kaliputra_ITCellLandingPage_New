@@ -84,7 +84,7 @@
       <h2 id="about-title" class="section-title" tabindex="-1">About Our IT Cell</h2>
       <div class="about-content">
         <p>The KaliPutra Mission IT Cell is a dedicated team of tech volunteers working to support and enhance our spiritual mission through technology. We're committed to using our technical skills to help spread awareness and facilitate the pursuit of oneness under the guidance of Maa Adya.</p>
-        <p>Our team combines spiritual dedication with technical expertise, working on various projects from web development to AI applications. We believe in the power of technology to connect, inspire, and transform lives while staying true to our spiritual values.</p>
+        <p>Our team blends spiritual dedication with technical expertise to pioneer innovative AI applications and other projects. We believe technology can unite, inspire, and uplift lives while honoring our spiritual values.</p>
       </div>
     </section>
 
