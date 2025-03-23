@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="Join our IT volunteer team to spread the Nama of Ma Adya Kali" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="theme-color" content="#000000" />
+		<meta name="keywords" content="IT volunteers, tech team, spiritual technology, Ma Adya Kali" />
+		
+		<!-- Security Headers -->
+		<meta http-equiv="X-Content-Type-Options" content="nosniff">
+		<meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+		<meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
+		<meta http-equiv="X-XSS-Protection" content="1; mode=block">
+		<meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+		
+		<link rel="manifest" href="/manifest.json" />
+		
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://your-domain.com/" />
+		<meta property="og:title" content="Join KaliPutra Mission IT Cell" />
+		<meta property="og:description" content="Join our IT volunteer team to spread the Nama of Ma Adya Kali" />
+		<meta property="og:image" content="/logo.png" />
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://your-domain.com/" />
+		<meta property="twitter:title" content="Join KaliPutra Mission IT Cell" />
+		<meta property="twitter:description" content="Join our IT volunteer team to spread the Nama of Ma Adya Kali" />
+		<meta property="twitter:image" content="/logo.png" />
+
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+		<script>
+			if ('serviceWorker' in navigator) {
+				navigator.serviceWorker.register('/sw.js')
+					.then((registration) => console.log('ServiceWorker registration successful'))
+					.catch((err) => console.log('ServiceWorker registration failed: ', err));
+			}
+		</script>
+	</body>
+</html>

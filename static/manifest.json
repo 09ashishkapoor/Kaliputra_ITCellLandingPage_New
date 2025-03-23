@@ -1,0 +1,16 @@
+{
+  "name": "KaliPutra Mission IT Cell",
+  "short_name": "IT Cell",
+  "description": "Join our IT volunteer team to spread the Nama of Ma Adya Kali",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#990000",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
